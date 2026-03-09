@@ -1,0 +1,358 @@
+body {
+    background-color: #605d5d;
+    font-family: sans-serif;
+    color: #ffc252;
+    margin: 20px;
+    }
+    
+    h1 {
+    color: #efde8a;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 100px;
+    }
+
+    h2 {
+      color: #efde8a;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding-left: 100px;
+      }
+    
+    p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+     color:#efde8a ;
+    }
+    blockquote {
+      font-style: italic;   
+        color: #faf1c1;
+        border-left: 4px solid #eae8e8;
+        margin: 10px 0;
+        padding-left: 10px;
+    }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(62, 62, 62, 0.737), rgb(56, 56, 56), rgb(127, 105, 53), rgba(39, 78, 22, 0.525));
+  background-size: 500% 500%;
+  animation: gradientBG 10s ease infinite; 
+}
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+} 
+blockquote {
+  font-style: italic;   
+    color: #faf1c1;
+    border-left: 4px solid #eae8e8;
+    margin: 10px 0;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;}
+
+    #searchInput {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #4d4d4d;
+  background-color: #2c2c2c;
+  color: #ffc252;
+  padding-right: 10px;
+}
+#searchInput::placeholder {
+  color: #b3b3b3;
+}
+nav a {
+  color: #ffc252;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.daftar-produk {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        }
+        
+        .produk {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(242, 242, 242, 0.792);
+        }
+        
+        .produk img {
+        width: 150px;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        }
+        
+        .produk h2 {
+        text-align: left;
+        font-size: 20px;
+        color: #1f2021;
+        }
+        
+        .harga {
+        font-weight: bold;
+        color: #5e5c5c;
+        }
+        
+        .deskripsi {
+        font-size: 14px;
+        color: #5e5c5c;
+        }
+nav {
+   
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 8px 0;
+  padding: 12px;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  padding: 12px;
+}
+ul li::before {
+  content: "●";
+  color: rgb(93, 5, 5);
+  margin-right: 10px;
+  font-weight: bold;
+}
+ul li:hover {
+  background: #672a2adf;
+  transform: translateX(6px);
+}
+nav ul li a {
+  color: #ffc252;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.artikel {
+max-width: 700px;
+margin: auto;
+padding: 20px;
+background-color: #464646;
+font-family: 'Georgia', serif;
+line-height: 1.8;
+}
+.artikel .penulis {
+font-style: italic;
+color: #181818;
+margin-bottom: 20px;
+}
+
+.artikel .sampul {
+width: 180px;
+float: right;
+margin: 0 0 20px 20px;
+box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.1);
+}
+.artikel blockquote {
+font-style: italic;
+padding-left: 20px;
+border-left: 4px solid #ffffff;
+margin: 20px 0;
+color: #ffffff;}
+
+.btn-kembali {
+display: inline-block;
+margin-top: 30px;
+padding: 10px 16px;
+background-color: #753939;
+
+text-decoration: none;
+border-radius: 4px;
+}
+.btn-kembali:hover {
+background-color: #753939;
+}
+ .formulir {
+max-width: 600px;
+margin: auto;
+padding: 20px;
+background-color: #343434;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form label {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+}
+form input,
+form select,
+form textarea
+ {
+width: 100%;
+ padding: 8px;
+margin-top: 5px;
+border: 1px solid #1f1e1e;
+border-radius: 4px;
+box-sizing: border-box;
+}
+form button {
+margin-top: 15px;
+padding: 10px 20px;
+background-color: #753939;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+ul {
+background-color: #753939;
+margin: 50px 0;
+padding: 50px;
+border-radius: 80px;
+}
+.Testimoni {
+background-color: #753939;
+margin: 20px 0;
+padding: 20px;
+border-radius: 10px;
+}
+
+.card-buku {
+            background-color: #343434;
+            width: 100%;
+            max-width: 560px; /* Menyesuaikan ukuran standar video Youtube */
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            width: 100%;
+            max-width: 500px; /* Tentukan lebar maksimal */
+            margin-left: auto;
+            margin-right: auto;
+            display: block; /* Memastikan elemen dianggap sebagai blok */
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Rasio 16:9 */
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .konten {
+            padding: 20px;
+        }
+
+        .judul-buku {
+            font-size: 24px;
+            color: #141414;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+
+        .harga-buku {
+            font-size: 20px;
+            color: #e67e22; /* Warna orange agar menonjol */
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .deskripsi {
+            font-size: 16px;
+            color: #1b1b1b;
+            line-height: 1.6;
+        }
+.produk {
+background-color: #494949; 
+border: 1px solid #656565;
+padding: 15px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 2px 6px rgba(58, 58, 58, 0.792);
+}
+h2 {
+background-color: #494949;
+border: 5px solid #00000085;
+padding: 15px;
+border-radius: 10px;
+text-align: center;
+font-size: 20px;
+color: #1f2021;
+}
+button {
+background-color: #753939;
+color: #fff;
+border: none;
+border-radius: 4px;
+padding: 10px 20px;
+cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Agar responsif di HP */
+    gap: 20px;
+    padding: 50px;
+    background-color: #474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .stat-card {
+    background: rgb(130, 130, 130);
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+  }
+
+  .counter {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+
+  .label {
+    color: #313232;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+
+
+
+
+
+
+
+
+
